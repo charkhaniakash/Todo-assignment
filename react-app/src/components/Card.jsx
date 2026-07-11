@@ -16,7 +16,7 @@ const Card = ({ item }) => {
       transition={{ duration: 0.3 }}
     >
       <p>{item.name}</p>
-      <MdDelete className="delete-icon" onClick={() => deleteItem(item.id)} />
+      <MdDelete className="delete-icon" onClick={() => deleteItem(item.name)} />
       {/* <button className="delete-btn" onClick={() => deleteItem(item.id)}>❌</button> */}
     </motion.div>
   );
