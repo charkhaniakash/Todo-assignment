@@ -5,7 +5,7 @@ import "../App.css";
 import { MdDelete } from "react-icons/md";
 
 const Card = ({ item }) => {
-  const { deleteItem } = useContext(ItemContext);
+
 
   return (
     <motion.div 
